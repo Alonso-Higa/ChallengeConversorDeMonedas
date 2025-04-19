@@ -1,0 +1,6 @@
+18/04/2025 23:54:42 / El valor 1.0 [USD]  corresponde en ARS a =>> 1172.83[ARS]
+18/04/2025 23:54:48 / El valor 1000.0 [ARS]  corresponde en USD a =>> 0.85264[USD]
+18/04/2025 23:54:53 / El valor 1.0 [USD]  corresponde en BRL a =>> 5.8186[BRL]
+18/04/2025 23:54:55 / El valor 1000.0 [BRL]  corresponde en USD a =>> 171.5[USD]
+18/04/2025 23:54:59 / El valor 1.0 [USD]  corresponde en COP a =>> 4331.5317[COP]
+18/04/2025 23:55:02 / El valor 1000.0 [COP]  corresponde en USD a =>> 0.23087[USD]
