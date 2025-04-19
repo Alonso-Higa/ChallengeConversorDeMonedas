@@ -6,7 +6,9 @@ te responde con un JSON, se extrae los valore necesarios para la conversión y s
 
 <h2>Tecnologías Utilizadas</h2>
   - (*API de tasa de cambio*): ExchangeRate-API
+  
   - (*API de tiempo de JAVA*): LocalDateTime y DateTimeFormatter
+    
   - (*Biblioteca Gson*): Gson se utilizó para facilitar la extracción de datos de la respuesta en JSON 
 
 <h2>Desarrollado por</h2>
