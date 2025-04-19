@@ -28,15 +28,30 @@ public class Calculos {
     public void rellenarValores(String monedaBase, String monedaCambio){
         this.monedaBase = monedaBase;
         this.monedaCambio = monedaCambio;
-        System.out.println("Ingrese la cantidad de " + monedaBase + " que deseas convertir a " + monedaCambio + ": ");
-        this.montoDeCambio = Double.parseDouble(lectura.nextLine());
+        //System.out.println("Ingrese la cantidad de " + monedaBase + " que deseas convertir a " + monedaCambio + ": ");
+        //this.montoDeCambio = Double.parseDouble(lectura.nextLine());
+        while(true){
+            try{
+                System.out.println("Ingrese la cantidad de " + monedaBase + " que deseas convertir a " + monedaCambio + ": ");
+                this.montoDeCambio = Double.parseDouble(lectura.nextLine());
+                break;
+            } catch (Exception e) {
+                System.out.println("Respuesta invalida, ingresarlo de nuevo");
+            }
+        }
     }
 
     @Override
     public String toString() {
         Moneda monedaConvertida = conversion.moneda(monedaBase,monedaCambio,montoDeCambio);
-        return "El valor " + montoDeCambio + " [" + monedaConvertida.base_code() + "] " +
-                " corresponde en " + monedaConvertida.target_code() + " a =>> " +
-                monedaConvertida.conversion_result() + "["+monedaConvertida.target_code()+"]";
+
+        if(monedaConvertida.base_code() == null){
+            return "No se encontro resultado, revise bien los nombres de las monedas";
+        }
+        else{
+            return "El valor " + montoDeCambio + " [" + monedaConvertida.base_code() + "] " +
+                    " corresponde en " + monedaConvertida.target_code() + " a =>> " +
+                    monedaConvertida.conversion_result() + "["+monedaConvertida.target_code()+"]";
+        }
     }
 }

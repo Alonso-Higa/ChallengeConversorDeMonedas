@@ -30,7 +30,8 @@ public class ConversorApp {
                 4) Real brasileño =>> Dolar
                 5) Dolar =>> Peso colombiano
                 6) Peso colombiano =>> Dolar
-                7) Salir
+                7) Elija usted sus monedas
+                8) Salir
                 Elija una opcion valida:
                 *******************************************
                 """;
@@ -88,6 +89,19 @@ public class ConversorApp {
                         break;
                     }
                     case 7:{
+                        String monedaBaseIngresada;
+                        String monedaCambioIngresada;
+                        System.out.println("Ingrese su moneda base:");
+                        monedaBaseIngresada = lectura.nextLine().toUpperCase();
+                        System.out.println("Ingrese su moneda de cambio:");
+                        monedaCambioIngresada = lectura.nextLine().toUpperCase();
+
+                        calculos.rellenarValores(monedaBaseIngresada,monedaCambioIngresada);
+                        System.out.println(calculos.toString());
+                        conversiones.add(horaFecha + " / " + calculos.toString());
+                        break;
+                    }
+                    case 8:{
                         break;
                     } default:{
                         System.out.println("Ingrese una opcion valida");
@@ -101,7 +115,7 @@ public class ConversorApp {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-            if(opcion == 7){break;}
+            if(opcion == 8){break;}
         }
         System.out.println("Saliendo del programa");
     }
