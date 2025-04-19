@@ -15,6 +15,7 @@ te responde con un JSON, se extrae los valore necesarios para la conversión y s
   - **Postman API Platform**: Se utilizó para ver los valores y ver que devuelva bien los datos
 
 <h2>Funcionalidades⚙️</h2>
+
   - El sistema detecta si la opción escogida por el usuario no es válida y vuelve a preguntar por una opcion que sí lo sea.
   
   - Verifica si el monto a convertir es admisible.
