@@ -13,5 +13,6 @@ te responde con un JSON, se extrae los valore necesarios para la conversión y s
   - **Biblioteca Gson**: Gson se utilizó para facilitar la extracción de datos de la respuesta en JSON 
 
 <h2>Desarrollado por</h2>
+
   -  Alonso Higa Kohatsu
   
