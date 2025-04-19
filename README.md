@@ -22,7 +22,7 @@ te responde con un JSON, se extrae los valore necesarios para la conversión y s
 
   - Se puede realizar diferentes conversiones sin tener que volver a correr el programa.
 
-  - Se lleva un registro de fecha y hora, además de la conversión que se hizo en un archivo txt.
+  - Se lleva un registro de las conversiones que se han realizado, al igual que la hora y fecha que se pidieron, esto se guarda en un archivo txt.
 
 <h2>Opción adicional al Challenge⚡</h2>
 Aparte de las funcionalidades que se pidio para este Challenge, yo quise poner a prueba mis conocimientos adquiridos y agregar una funcionalidad más que es la número 7, en donde el usuario puede ingresar cualquier moneda base y la moneda que quiera hacer la conversión, para que sea más flexible el conversor.
