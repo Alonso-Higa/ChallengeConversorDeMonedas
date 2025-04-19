@@ -10,7 +10,9 @@ te responde con un JSON, se extrae los valore necesarios para la conversión y s
   
   - **API de tiempo de JAVA**: LocalDateTime y DateTimeFormatter
     
-  - **Biblioteca Gson**: Gson se utilizó para facilitar la extracción de datos de la respuesta en JSON 
+  - **Biblioteca Gson**: Gson se utilizó para facilitar la extracción de datos de la respuesta en JSON
+
+  - **Postman API Platform**: Se utilizó para ver los valores y ver que devuelva bien los datos
 
 <h2>Desarrollado por</h2>
 
